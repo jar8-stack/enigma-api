@@ -14,10 +14,6 @@ app.use(bodyParser.json());
 
 //routes
 require('./routes/usuarioRoutes')(app);
-require('./routes/categoriaRoutes')(app);
-require('./routes/productoRoutes')(app);
-require('./routes/productoCategoriaRoutes')(app);
-require('./routes/pedidoRoutes')(app);
 
 
 // static files
